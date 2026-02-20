@@ -52,3 +52,24 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# PowerShell
+*.log
+*.tmp
+*.bak
+
+# Editor/IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test output
+TestResults/
+.env

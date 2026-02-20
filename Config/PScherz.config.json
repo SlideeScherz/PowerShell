@@ -1,0 +1,7 @@
+{
+    "PScherz": {
+        "env": {
+            "POWERSHELLGALLERY_API_KEY": ""
+        }
+    }
+}
