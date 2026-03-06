@@ -1,7 +1,33 @@
 {
     "PScherz": {
-        "env": {
-            "POWERSHELLGALLERY_API_KEY": ""
+        "version": "1.0.0",
+        "environment_variables": {
+            "BASE_PROFILE_PATH": "C:\\dev\\source\\repos\\PowerShell\\Config\\PScherz.profile.ps1",
+            "POWERSHELLGALLERY_API_KEY": "key",
+            "EDITOR": "code"
+        },
+        "paths": {
+            "profile": "~\\dev\\source\\repos\\PowerShell\\Config\\PScherz.profile.ps1",
+            "scripts": "~\\Scripts",
+            "modules": "~\\Documents\\PowerShell\\Modules"
+        },
+        "prompt": {
+            "showGitStatus": true,
+            "showExecutionTime": true,
+            "showPath": "short"
+        },
+        "aliases": {},
+        "modules": {
+            "autoLoad": []
+        },
+        "history": {
+            "maxCount": 10000,
+            "savePath": "~\\AppData\\Roaming\\PowerShell\\PSReadLine\\ConsoleHost_history.txt"
+        },
+        "psreadline": {
+            "editMode": "Windows",
+            "predictionSource": "HistoryAndPlugin",
+            "predictionViewStyle": "ListView"
         }
     }
 }
